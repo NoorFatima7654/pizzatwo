@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Carousel() {
   return (
@@ -44,7 +45,7 @@ export default function Carousel() {
                   flexGrow: 1,
                 }}
               >
-                <img
+                <Image
                   src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.webp"
                   alt="pizza 1"
                   style={{
@@ -106,7 +107,7 @@ export default function Carousel() {
                   marginBottom: "16px",
                 }}
               >
-                <img
+                <Image
                   src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_514457074.jpg.webp"
                   alt="pizza 2"
                   style={{
@@ -164,7 +165,7 @@ export default function Carousel() {
                     padding: "160px 16px 16px",
                   }}
                 >
-                  <img
+                  <Image
                     src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_184944413.jpg.webp"
                     alt="pizza 3"
                     style={{
@@ -214,7 +215,7 @@ export default function Carousel() {
                     padding: "160px 16px 16px",
                   }}
                 >
-                  <img
+                  <Image
                     src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_313437680.jpg.webp"
                     alt="pizza 4"
                     style={{
@@ -276,7 +277,7 @@ export default function Carousel() {
                   flexGrow: 1,
                 }}
               >
-                <img
+                <Image
                   src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_244706695.jpg.webp"
                   alt="pizza 5"
                   style={{

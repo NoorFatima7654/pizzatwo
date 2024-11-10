@@ -109,7 +109,7 @@ const Testimonals = () => {
           transition: 'all 0.2s ease-in-out'
         }}>
           <p style={{ fontStyle: 'italic', color: '#4B5563' }}>
-            "{testimonals[currentIndex].feedback}"
+            `{testimonals[currentIndex].feedback}`
           </p>
           <h3 style={{ fontWeight: '600', color: '#1F2937' }}>
             {testimonals[currentIndex].name}

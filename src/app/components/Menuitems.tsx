@@ -1,4 +1,5 @@
 import { FaShoppingCart } from "react-icons/fa";
+import Image from "next/image";
 import React from "react";
 
 const productCardGrid = () => {
@@ -83,7 +84,7 @@ const productCardGrid = () => {
             }}
           >
             <a href="#">
-              <img
+              <Image
                 src={productImages[index]}
                 alt={`product ${index + 1}`}
                 style={{

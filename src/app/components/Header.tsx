@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { GiFullPizza } from "react-icons/gi";
 import { FaSearch } from "react-icons/fa";
 import { FaBolt } from "react-icons/fa";
@@ -138,7 +139,7 @@ export default function Header() {
                     transition: "color 0.3s, transform 0.3s",
                   }}
                 />
-                <img
+                <Image
                   style={{
                     width: "32px",
                     height: "32px",

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -70,7 +71,7 @@ export default function Footer() {
         }}
       >
         <a href="https://facebook.com" target="_blank" rel="nofollow noopener">
-          <img
+          <Image
             style={{
               width: '30px',
               height: '30px',
@@ -80,7 +81,7 @@ export default function Footer() {
           />
         </a>
         <a href="https://linkedin.com" target="_blank" rel="nofollow noopener">
-          <img
+          <Image
             style={{
               width: '30px',
               height: '30px',
@@ -91,7 +92,7 @@ export default function Footer() {
         </a>
 
         <a href="https://instagram.com" target="_blank" rel="nofollow noopener">
-          <img
+          <Image
             style={{
               width: '30px',
               height: '30px',
@@ -102,7 +103,7 @@ export default function Footer() {
         </a>
 
         <a href="https://twitter.com" target="_blank" rel="nofollow noopener">
-          <img
+          <Image
             style={{
               width: '30px',
               height: '30px',

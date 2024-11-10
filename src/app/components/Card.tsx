@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 
 
 const FloatingImageContentBlock = () => {
@@ -43,7 +44,7 @@ const FloatingImageContentBlock = () => {
 
    
       <div className="md:w-1/2 mt-6 md:mt-0">
-      <img src="https://as1.ftcdn.net/v2/jpg/02/36/85/52/1000_F_236855277_w9n3jvD8n4ZguTEZd9vqqeBdMU77BtJy.jpg"
+      <Image src="https://as1.ftcdn.net/v2/jpg/02/36/85/52/1000_F_236855277_w9n3jvD8n4ZguTEZd9vqqeBdMU77BtJy.jpg"
       alt="delicious pizza"
       className="-full h-auto rounded-lg shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-105 mr-7" />
 
